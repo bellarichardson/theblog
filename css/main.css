@@ -108,6 +108,23 @@ h4{
     margin:auto;
 }
 
+.hey{
+    column-count:2;
+    column-gap:15px;
+    column-width:30px;
+    padding:20px;
+}
+
+.okay{
+    background-color:#73321A;
+    padding:5px;
+    margin:20px;
+    width:662px;
+    padding-left:20px;
+    padding-right:20px;
+    color:#F1E9A1;
+}
+
 /*.one{
     margin-left:60px;
     border-top-right-radius:150px;
@@ -278,7 +295,7 @@ a:hover{
     border-color:#73321A;
     border-width:0.26px;
     border-radius:25px;
-    
+    font-size:22px;
 }
 
 .another{
@@ -292,6 +309,7 @@ a:hover{
     border-width:0.26px;
     border-radius:25px;
     margin-bottom:5px;
+    font-size: 22px;
 }
 
 
