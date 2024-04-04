@@ -93,7 +93,7 @@ footer{
     background-color:#FFC2CF;
 }
 
-#home{
+.home{
     background-image:url(../img/homepage.webp);
     background-size:cover;
 }
@@ -131,5 +131,16 @@ div{
 }
 
 #callout{
-    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.margin{
+    margin-top:30px;
+    text-align:center;
+    background-color:#F1E9A1;
+    padding:10px;
+    width:600px;
 }
