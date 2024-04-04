@@ -62,6 +62,9 @@ article{
     margin-top:30px;
     margin-bottom:40px;
     border-radius:25px;
+    border-style:solid;
+    border-color:#73321A;
+    border-width:0.25px;
 }
 
 .yellow{
@@ -81,6 +84,9 @@ article{
     margin-left:0;
     padding-left:300px;
     padding-right:50px;
+    border-style:solid;
+    border-color:#73321A;
+    border-width:0.25px;
 }
 
 #two{
@@ -90,6 +96,9 @@ article{
     padding-right:300px;
     padding-left:100px;
     margin-left:10px;
+    border-style:solid;
+    border-color:#73321A;
+    border-width:0.25px;
 }
 
 body{
@@ -141,8 +150,8 @@ a:hover{
 div{
     display:flex;
     flex-direction:row;
-    align-items:left/*center*/;
-    justify-content:left/*center*/;
+    align-items:left;
+    justify-content:left;
     margin-bottom:30px;
 }
 
@@ -170,15 +179,22 @@ div{
     background-color:#F1E9A1;
     padding:10px;
     width:600px;
+    border-style:solid;
+    border-color:#73321A;
+    border-width:0.25px;
+    border-radius:25px;
 }
 
-.class::before{
-  background-color: #F1E9A1;
-  content: '';
-  display: block;
-  height: 100%;
-  position: absolute;
-  width: 100%;
+.another{
+    margin-top:30px;
+    text-align:center;
+    background-color:#F1E9A1;
+    padding:10px;
+    width:250px;
+    border-style:solid;
+    border-color:#73321A;
+    border-width:0.25px;
+    border-radius:25px;
 }
 
 
