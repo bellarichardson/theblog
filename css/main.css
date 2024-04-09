@@ -67,15 +67,11 @@ h4{
     margin:20px;
 }
 
-.small{
-    font-size:14px;
-}
-
 #pink{
     background-color:#F1E9A1;
     padding:5px;
     margin:20px;
-    width:500px;
+    width:600px;
     text-align: center;
     margin:auto;
     margin-top:30px;
@@ -84,6 +80,7 @@ h4{
     border-style:solid;
     border-color:#73321A;
     border-width:0.26px;
+    font-size: 22px;
 }
 
 #thanks{
@@ -98,6 +95,7 @@ h4{
     border-style:solid;
     border-color:#73321A;
     border-width:0.26px;
+    margin-bottom:40px;
 }
 
 .yellow{
@@ -111,27 +109,32 @@ h4{
     border-style:solid;
     border-color:#73321A;
     border-width:0.26px;
+    margin-top:40px;
 }
 
 .hey{
     display:flex;
     flex-direction:row;
-    align-items:center;
     justify-content:center;
 }
 
 .okay{
-    background-color:#73321A;
     padding:10px;
-    margin:20px;
+    margin:10px;
     width:331px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:10px;
+    padding-right:10px;
     color:#F1E9A1;
+}
+
+#back{
+    background-color:#73321A;
     border-radius:20px;
     border-style:solid;
     border-color:#F1E9A1;
     border-width:0.26px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 #blah{
@@ -153,15 +156,25 @@ a{
 footer{
     background-color:#FFC2CF;
     padding:20px;
-    text-align:center;
-    padding-bottom:3px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
 }
 
 .foot{
     display:flex;
-    flex-direction:row;
-    justify-content:space-around;
+    flex-direction:column;
+    justify-content:center;
     align-items:center;
+    padding-left:70px;
+    border-left:1.5px solid #73321A
+}
+
+.small{
+    font-weight: bold;
+    margin-right:70px;
+    text-align:center;
 }
 
 #stuff{
@@ -213,11 +226,12 @@ a:hover{
     background-color:#FFC2CF;
     padding: 5px;
     width:800px;
-    margin:5px;
+    margin-right:0px;
     padding-left:100px;
     padding-right:200px;
     margin-bottom:30px;
     opacity:0.96;
+    float:right;
 }
 
 .wow{
